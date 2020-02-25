@@ -14,6 +14,10 @@ import javax.swing.JPanel;
 import javax.swing.Timer;
 
 public class MPanel extends JPanel implements KeyListener, ActionListener{
+	/**
+	 *
+	 */
+	private static final long serialVersionUID = 1L;
 	ImageIcon title = new ImageIcon("title.jpg");
 	ImageIcon body = new ImageIcon("body.png");
 	ImageIcon up = new ImageIcon("up.png");
